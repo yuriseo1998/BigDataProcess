@@ -22,7 +22,6 @@ a = df.loc[round(len(df) * 0.3),'total']
 bp = df.loc[round(len(df) * 0.5),'total']
 b = df.loc[round(len(df) * 0.7),'total']
 cp = df.loc[int(len(df) * 0.85),'total']
-print(len(df))
 wb = openpyxl.load_workbook( "student.xlsx" )
 ws = wb['Sheet1']
 row_id = 1
